@@ -1,0 +1,621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AppoimentHospital">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gredint_hospital_back"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="@drawable/backspace" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/_40sdp"
+                android:fontFamily="@font/apercubold"
+                android:text="Doctor List"
+                android:textColor="#D3000000"
+                android:textSize="@dimen/_17ssp" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginHorizontal="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_7sdp"
+            android:background="@drawable/day_round"
+            android:elevation="@dimen/_10sdp"
+            android:padding="@dimen/_5sdp">
+
+
+            <RelativeLayout
+                android:id="@+id/ReHospitalHome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true">
+
+                <ImageView
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:background="@drawable/home"
+                    android:backgroundTint="@color/grey" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/_64sdp">
+
+                <ImageView
+
+                    android:layout_width="@dimen/_23sdp"
+                    android:layout_height="@dimen/_23sdp"
+                    android:background="@drawable/chat"
+                    android:backgroundTint="@color/grey" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:background="@drawable/information"
+                    android:backgroundTint="@color/grey" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/_5sdp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:src="@color/blue" />
+
+                <ImageView
+                    android:layout_width="@dimen/_25sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="@drawable/plus" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="@dimen/_65sdp">
+
+                <ImageView
+                    android:layout_width="@dimen/_24sdp"
+                    android:layout_height="@dimen/_24sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:background="@drawable/doctorbox"
+                    android:backgroundTint="@color/grey" />
+
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_52sdp"
+            android:scrollbars="none">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Christina Frazier"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Heart Surgeon, London"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Jane Andrews"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Dental Surgeon, USA"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Alma Wallace"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Heart Surgeon, London"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Mayme Gomez"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Dental Surgeon, USA"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Lva Carpenter"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Heart Surgeon, London"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Chester Huff"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Dental Surgeon, USA"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="2">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_15sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_5sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Christina Frazier"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Heart Surgeon, London"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_10sdp"
+                        android:layout_marginRight="@dimen/_15sdp"
+                        android:layout_weight="1"
+                        android:background="@drawable/glassmorphissm"
+                        android:elevation="@dimen/_10sdp"
+                        android:orientation="vertical">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:src="@drawable/female" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_10sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Jane Andrews"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_5sdp"
+                            android:fontFamily="@font/poppinsmedium"
+                            android:text="Dental Surgeon, USA"
+                            android:textColor="@color/grey"
+                            android:textSize="@dimen/_8ssp" />
+
+                        <androidx.appcompat.widget.AppCompatButton
+                            android:layout_width="@dimen/_100sdp"
+                            android:layout_height="@dimen/_28sdp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_marginTop="@dimen/_17sdp"
+                            android:layout_marginBottom="@dimen/_17sdp"
+                            android:background="@drawable/day_round"
+                            android:elevation="@dimen/_3sdp"
+                            android:padding="@dimen/_5sdp"
+                            android:text="Appointment "
+                            android:textAlignment="center"
+                            android:textColor="@color/blac"
+                            android:textSize="@dimen/_10ssp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </ScrollView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

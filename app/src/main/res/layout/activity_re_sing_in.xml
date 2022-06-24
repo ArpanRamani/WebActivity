@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ReSingIn"
+    android:background="@drawable/singin"
+    android:orientation="vertical"
+    android:foreground="#4B000000">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/roundyellow">
+
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/brandonblack"
+            android:textColor="@color/white"
+            android:singleLine="true"
+            android:imeOptions="actionNext"
+            android:hint="Enter your email address"
+            android:textColorHint="@color/white"
+            android:textSize="@dimen/_10ssp"
+            android:drawableLeft="@drawable/email"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawablePadding="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/roundyellow">
+
+
+        <EditText
+            android:id="@+id/edtPassWord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/brandonblack"
+            android:textColor="@color/white"
+            android:hint="Enter your password"
+            android:singleLine="true"
+            android:imeOptions="actionDone"
+            android:textColorHint="#ffffff"
+            android:inputType="textPassword"
+            android:textSize="@dimen/_10ssp"
+            android:drawableLeft="@drawable/vpnkey"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawablePadding="@dimen/_10sdp"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnRegistrationS"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:background="@drawable/gradintyellow"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_10ssp"
+        android:fontFamily="@font/brandonblack"
+        android:text="Registration"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

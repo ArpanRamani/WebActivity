@@ -1,0 +1,870 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECE8E8"
+    android:orientation="vertical"
+    tools:context=".CarActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:orientation="vertical"
+            android:padding="@dimen/_10sdp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:background="@drawable/round"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_130sdp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bmw_car_img" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_5sdp"
+                        android:text="BMW X4 Sports"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/seat_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="5"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/gate_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/bag_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="3"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/round1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_7sdp"
+                        android:text="4.5"
+                        android:textColor="#E8BA47"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="₹ 71.43 Lakh"
+                    android:textColor="#9EA1B0"
+                    android:textSize="@dimen/_15ssp" />
+
+                <Button
+                    android:id="@+id/btnBmw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:backgroundTint="#9EA1B0"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Book Now" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/round"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:background="@drawable/audi"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Audi A8 L"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/seat_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/gate_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/bag_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="1"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/round1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_7sdp"
+                        android:text="4.8"
+                        android:textColor="#E8BA47"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="₹ 1.58 Crore"
+                    android:textSize="@dimen/_15ssp" />
+
+                <Button
+                    android:id="@+id/btnAudi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:backgroundTint="#9EA1B0"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Book Now" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/round"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:background="@drawable/ford_mustang"  />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Ford Mustang"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/seat_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/gate_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="2"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/bag_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="0"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/round1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_7sdp"
+                        android:text="4.8"
+                        android:textColor="#E8BA47"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="₹ 74.61 Lakh"
+                    android:textSize="@dimen/_15ssp" />
+
+                <Button
+                    android:id="@+id/btnFord"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:backgroundTint="#9EA1B0"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Book Now" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/round"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:background="@drawable/mercedes" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Mercedes-Benz C-Class"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/seat_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/gate_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/bag_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="2"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/round1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_7sdp"
+                        android:text="4.6"
+                        android:textColor="#E8BA47"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Rs.55.00 - 61.00 Lakh"
+                    android:textSize="@dimen/_15ssp" />
+
+                <Button
+                    android:id="@+id/btnMercedes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:backgroundTint="#9EA1B0"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Book Now" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/round"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:background="@drawable/thar" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Mahindra Thar"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/seat_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/gate_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/bag_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="2"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/round1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_7sdp"
+                        android:text="4.6"
+                        android:textColor="#E8BA47"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="₹ 13.53 Lakh"
+                    android:textSize="@dimen/_15ssp" />
+
+                <Button
+                    android:id="@+id/btnThar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:backgroundTint="#9EA1B0"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Book Now" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_280sdp"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:background="@drawable/round"
+                android:elevation="@dimen/_5sdp"
+                android:padding="@dimen/_10sdp">
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_240sdp"
+                    android:layout_height="@dimen/_150sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="@dimen/_65sdp"
+                    android:background="@drawable/kia" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_5sdp"
+                        android:text="Kia EV6"
+                        android:textAllCaps="true"
+                        android:textColor="@color/black"
+                        android:textSize="@dimen/_15ssp" />
+
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginTop="@dimen/_5sdp">
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:background="@drawable/seat_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/gate_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="4"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+                        <ImageView
+                            android:layout_width="@dimen/_15sdp"
+                            android:layout_height="@dimen/_15sdp"
+                            android:layout_marginLeft="@dimen/_10sdp"
+                            android:background="@drawable/bag_icon" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="@dimen/_3sdp"
+                            android:fontFamily="@font/brandonblack"
+                            android:gravity="center_vertical"
+                            android:text="2"
+                            android:textColor="#FFA3ADDC"
+                            android:textSize="@dimen/_10ssp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_width="@dimen/_50sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/round1">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:background="@drawable/ic_star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:fontFamily="@font/brandonblack"
+                        android:padding="@dimen/_7sdp"
+                        android:text="4.6"
+                        android:textColor="#E8BA47"
+                        android:textSize="@dimen/_10ssp" />
+
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:padding="@dimen/_8sdp"
+                    android:text="₹ 59.95 Lakh"
+                    android:textSize="@dimen/_15ssp" />
+
+                <Button
+                    android:id="@+id/btnKia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginRight="@dimen/_8sdp"
+                    android:backgroundTint="#9EA1B0"
+                    android:padding="@dimen/_8sdp"
+                    android:text="Book Now" />
+
+
+            </RelativeLayout>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

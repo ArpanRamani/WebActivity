@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ReDasboardActivity"
+    android:background="#2F374254">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_15sdp"
+        android:layout_marginVertical="@dimen/_10sdp">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_shopping_cart"
+            android:paddingHorizontal="@dimen/_5sdp" />
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:background="@drawable/bell"
+            android:paddingHorizontal="@dimen/_5sdp" />
+
+
+        <ImageView
+            android:id="@+id/imgMenu"
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:layout_centerVertical="true"
+            android:background="@drawable/menu"/>
+
+        <TextView
+            android:layout_marginLeft="@dimen/_30sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/apercubold"
+            android:paddingHorizontal="@dimen/_5sdp"
+            android:paddingVertical="@dimen/_10sdp"
+            android:text="Food Delivery"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15ssp" />
+
+
+    </RelativeLayout>
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginRight="@dimen/_15sdp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_40sdp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="@dimen/_67sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:background="@drawable/roundall"
+                android:fontFamily="@font/poppinssemibold"
+                android:gravity="center"
+                android:text="All"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="@dimen/_67sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/roundlg"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppinssemibold"
+                android:gravity="center"
+                android:text="Pizza"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="@dimen/_67sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/roundlg"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppinssemibold"
+                android:gravity="center"
+                android:text="Burger"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="@dimen/_67sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/roundlg"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppinssemibold"
+                android:gravity="center"
+                android:text="Cake"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+            <TextView
+                android:layout_width="@dimen/_67sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:background="@drawable/roundlg"
+                android:elevation="@dimen/_3sdp"
+                android:fontFamily="@font/poppinssemibold"
+                android:gravity="center"
+                android:text="IceCream"
+                android:textAlignment="gravity"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_10ssp" />
+
+
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/rePizza"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/pizza" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_2sdp"
+                android:fontFamily="@font/bangersregular"
+                android:gravity="center"
+                android:text="la pino' z Pizza"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/hart" />
+
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reBurger"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/burger" />
+
+
+            <TextView
+                android:layout_width="@dimen/_100sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:fontFamily="@font/lobsterregular"
+                android:gravity="center"
+                android:text="K F C"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/hart" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/raMonginis"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cake" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:fontFamily="@font/brandonblack"
+                android:gravity="center"
+                android:text="MONGINIS"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/hart" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/raIceCream"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_180sdp"
+            android:layout_marginHorizontal="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp">
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/icecream" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginLeft="@dimen/_20sdp"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="@font/brandongrotesqueblack"
+                android:gravity="center"
+                android:text="AMUL"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_18ssp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="@dimen/_35sdp"
+                android:layout_height="@dimen/_28sdp"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:src="@drawable/hart" />
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

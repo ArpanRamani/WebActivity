@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HospitalActivity"
+    android:background="@color/sky">
+
+    <ImageView
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/hospitalbed" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:background="@drawable/round_ye_llo"
+        android:layout_marginTop="@dimen/_40sdp">
+
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/ic_user"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/brandonblack"
+            android:hint="Enter User Name"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/round_ye_llo">
+
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/brandonblack"
+            android:hint="Enter your email address"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/round_ye_llo">
+
+
+        <EditText
+            android:id="@+id/editCall"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/call"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/brandonblack"
+            android:hint="Enter your Contact number"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnReHospital"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_marginTop="@dimen/_55sdp"
+        android:background="@drawable/greadintred"
+        android:elevation="@dimen/_5sdp"
+        android:fontFamily="@font/poppinssemibold"
+        android:text="Register"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_10ssp" />
+
+</LinearLayout>

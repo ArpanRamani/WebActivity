@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginback"
+    android:foreground="#37000000"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".RestsaurantsActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_137sdp"
+        android:fontFamily="@font/lobsterregular"
+        android:paddingVertical="@dimen/_5sdp"
+        android:text="Restaurant App"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_30ssp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:background="@drawable/roundbacr">
+
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/brandonblack"
+            android:hint="Enter User Name"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/roundbacr">
+
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/email"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/brandonblack"
+            android:hint="Enter your email address"
+            android:imeOptions="actionNext"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:background="@drawable/roundbacr">
+
+
+        <EditText
+            android:id="@+id/editPassWord"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:drawableLeft="@drawable/vpnkey"
+            android:drawablePadding="@dimen/_10sdp"
+            android:fontFamily="@font/brandonblack"
+            android:hint="Enter your password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textColorHint="#ffffff"
+            android:textSize="@dimen/_10ssp" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnLogin"
+            android:layout_width="@dimen/_120sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginBottom="@dimen/_80sdp"
+            android:background="@drawable/loginbutton"
+            android:fontFamily="@font/brandonblack"
+            android:text="Login"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/_25sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:text="Already Registered ?"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_12ssp" />
+
+        <TextView
+            android:id="@+id/txtSignIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="@dimen/_130sdp"
+            android:layout_marginBottom="@dimen/_50sdp"
+            android:text="Sign in"
+            android:textColor="@color/yellow"
+            android:textSize="@dimen/_12ssp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
